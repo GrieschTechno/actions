@@ -156,7 +156,7 @@ Cloudflare API and GitHub API.
 | `comment-marker` | | `<!-- cf-pages-preview -->` | Sticky-comment identifier |
 | `comment-mode` | | `sticky` | Must match `deploy`'s `comment-mode`. In `repost` mode, minimizes all marker comments and posts a final cleanup comment. |
 | `github-token` | | `${{ github.token }}` | Token for PR commenting |
-| `pr-number` | | `${{ github.event.pull_request.number }}` | PR number to update the sticky comment on — override when running on `workflow_dispatch` or other triggers without `payload.pull_request` |
+| `pr-number` | | `${{ github.event.pull_request.number }}` | PR number to update the sticky comment on — override when running on `workflow_dispatch` or other triggers without `payload.pull_request` |    
 
 ## Outputs
 
